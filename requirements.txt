@@ -1,0 +1,9 @@
+matplotlib
+numpy
+tk # Note: Only needed for macOS and Linux. For Windows, tkinter comes pre-installed with Python.
+transformers
+torch
+speechrecognition
+pyttsx3
+pyaudio
+fpdf
