@@ -1,0 +1,456 @@
+Total lines processed: 475
+
+NEGATIVE: 423 occurrences
+The log entry may indicate a problem. Please investigate further.
+
+  Line 2: --- START OF: Sample_Suspicious_log.log ---
+  Line 4: Jun 21 10:01:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.100
+  Line 5: Jun 21 10:02:00 INFO ProcessA: Processing request
+  Line 6: Jun 21 10:03:00 ERROR Security breach detected in ProcessB
+  Line 7: Jun 21 10:04:00 WARN ProcessC: High memory usage
+  Line 8: Jun 21 10:05:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.101
+  Line 9: Jun 21 10:06:00 INFO ProcessA: Processing request
+  Line 10: Jun 21 10:07:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.102
+  Line 11: Jun 21 10:08:00 INFO ProcessA: Processing request
+  Line 12: Jun 21 10:09:00 ERROR Malware detected in ProcessC
+  Line 14: Jun 21 10:11:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.103
+  Line 15: Jun 21 10:12:00 WARN ProcessC: High memory usage
+  Line 16: Jun 21 10:13:00 ERROR Malware detected in ProcessA
+  Line 17: Jun 21 10:14:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.104
+  Line 18: Jun 21 10:15:00 INFO ProcessA: Processing request
+  Line 19: Jun 21 10:16:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.105
+  Line 20: Jun 21 10:17:00 WARN ProcessB: Low disk space
+  Line 21: Jun 21 10:18:00 ERROR Malware detected in ProcessB
+  Line 23: Jun 21 10:20:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.106
+  Line 24: Jun 21 10:21:00 WARN ProcessC: High memory usage
+  Line 25: Jun 21 10:22:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.107
+  Line 26: Jun 21 10:23:00 INFO ProcessA: Processing request
+  Line 27: Jun 21 10:24:00 ERROR Malware detected in ProcessC
+  Line 28: Jun 21 10:25:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.108
+  Line 29: Jun 21 10:26:00 INFO ProcessA: Processing request
+  Line 30: Jun 21 10:27:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.109
+  Line 31: Jun 21 10:28:00 INFO ProcessA: Processing request
+  Line 32: Jun 21 10:29:00 ERROR Malware detected in ProcessA
+  Line 34: Jun 21 10:31:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.110
+  Line 35: Jun 21 10:32:00 WARN ProcessC: High memory usage
+  Line 36: Jun 21 10:33:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.111
+  Line 37: Jun 21 10:34:00 INFO ProcessA: Processing request
+  Line 38: Jun 21 10:35:00 ERROR Malware detected in ProcessB
+  Line 39: Jun 21 10:36:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.112
+  Line 40: Jun 21 10:37:00 WARN ProcessB: Low disk space
+  Line 41: Jun 21 10:38:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.113
+  Line 43: Jun 21 10:40:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.114
+  Line 44: Jun 21 10:41:00 WARN ProcessC: High memory usage
+  Line 45: Jun 21 10:42:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.115
+  Line 46: Jun 21 10:43:00 INFO ProcessA: Processing request
+  Line 47: Jun 21 10:44:00 ERROR Malware detected in ProcessC
+  Line 48: Jun 21 10:45:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.116
+  Line 49: Jun 21 10:46:00 INFO ProcessA: Processing request
+  Line 50: Jun 21 10:47:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.117
+  Line 51: Jun 21 10:48:00 INFO ProcessA: Processing request
+  Line 52: Jun 21 10:49:00 ERROR Malware detected in ProcessA
+  Line 54: Jun 21 10:51:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.118
+  Line 55: Jun 21 10:52:00 WARN ProcessC: High memory usage
+  Line 56: Jun 21 10:53:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.119
+  Line 57: Jun 21 10:54:00 INFO ProcessA: Processing request
+  Line 58: Jun 21 10:55:00 ERROR Malware detected in ProcessB
+  Line 59: Jun 21 10:56:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.120
+  Line 60: Jun 21 10:57:00 WARN ProcessB: Low disk space
+  Line 61: Jun 21 10:58:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.121
+  Line 63: Jun 21 11:00:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.122
+  Line 64: Jun 21 11:01:00 WARN ProcessC: High memory usage
+  Line 65: Jun 21 11:02:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.123
+  Line 66: Jun 21 11:03:00 INFO ProcessA: Processing request
+  Line 67: Jun 21 11:04:00 ERROR Malware detected in ProcessC
+  Line 68: Jun 21 11:05:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.124
+  Line 69: Jun 21 11:06:00 INFO ProcessA: Processing request
+  Line 70: Jun 21 11:07:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.125
+  Line 71: Jun 21 11:08:00 INFO ProcessA: Processing request
+  Line 72: Jun 21 11:09:00 ERROR Malware detected in ProcessA
+  Line 74: Jun 21 11:11:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.126
+  Line 75: Jun 21 11:12:00 WARN ProcessC: High memory usage
+  Line 76: Jun 21 11:13:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.127
+  Line 77: Jun 21 11:14:00 INFO ProcessA: Processing request
+  Line 78: Jun 21 11:15:00 ERROR Malware detected in ProcessB
+  Line 79: Jun 21 11:16:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.128
+  Line 80: Jun 21 11:17:00 WARN ProcessB: Low disk space
+  Line 81: Jun 21 11:18:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.129
+  Line 83: Jun 21 11:20:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.130
+  Line 84: Jun 21 11:21:00 WARN ProcessC: High memory usage
+  Line 85: Jun 21 11:22:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.131
+  Line 86: Jun 21 11:23:00 INFO ProcessA: Processing request
+  Line 87: Jun 21 11:24:00 ERROR Malware detected in ProcessC
+  Line 88: Jun 21 11:25:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.132
+  Line 89: Jun 21 11:26:00 INFO ProcessA: Processing request
+  Line 90: Jun 21 11:27:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.133
+  Line 91: Jun 21 11:28:00 INFO ProcessA: Processing request
+  Line 92: Jun 21 11:29:00 ERROR Malware detected in ProcessA
+  Line 100: Jun 21 10:01:00 DEBUG ProcessB: Received request
+  Line 102: Jun 21 10:03:00 DEBUG ProcessC: Handled incoming data
+  Line 103: Jun 21 10:04:00 INFO ProcessB: Processed batch 1
+  Line 104: Jun 21 10:05:00 DEBUG ProcessA: Received signal
+  Line 105: Jun 21 10:06:00 INFO ProcessC: Sent response to client
+  Line 106: Jun 21 10:07:00 DEBUG ProcessA: Resumed processing
+  Line 107: Jun 21 10:08:00 INFO ProcessB: Saved data to database
+  Line 108: Jun 21 10:09:00 DEBUG ProcessC: Processing complete
+  Line 109: Jun 21 10:10:00 INFO ProcessA: Stopped service
+  Line 110: Jun 21 10:11:00 DEBUG ProcessB: Retrieved configuration
+  Line 111: Jun 21 10:12:00 INFO ProcessC: Sent notification email
+  Line 112: Jun 21 10:13:00 DEBUG ProcessA: Parsing input file
+  Line 113: Jun 21 10:14:00 INFO ProcessB: Initialized system components
+  Line 114: Jun 21 10:15:00 DEBUG ProcessC: Data validation complete
+  Line 115: Jun 21 10:16:00 INFO ProcessA: Started batch processing
+  Line 116: Jun 21 10:17:00 DEBUG ProcessB: Handled user request
+  Line 118: Jun 21 10:19:00 DEBUG ProcessA: Backup process initiated
+  Line 120: Jun 21 10:21:00 DEBUG ProcessC: Analyzed performance metrics
+  Line 121: Jun 21 10:22:00 INFO ProcessA: Processed data file
+  Line 122: Jun 21 10:23:00 DEBUG ProcessB: Scheduled task completed
+  Line 123: Jun 21 10:24:00 INFO ProcessC: Cleaned up temporary files
+  Line 124: Jun 21 10:25:00 DEBUG ProcessA: Service restart requested
+  Line 125: Jun 21 10:26:00 INFO ProcessB: Database backup completed
+  Line 126: Jun 21 10:27:00 DEBUG ProcessC: Sent log files to central server
+  Line 127: Jun 21 10:28:00 INFO ProcessA: Received external data feed
+  Line 128: Jun 21 10:29:00 DEBUG ProcessB: Analyzed security logs
+  Line 129: Jun 21 10:30:00 INFO ProcessC: Resolved customer support ticket
+  Line 130: Jun 21 10:31:00 DEBUG ProcessA: Configured new system settings
+  Line 131: Jun 21 10:32:00 INFO ProcessB: Loaded application plugins
+  Line 132: Jun 21 10:33:00 DEBUG ProcessC: Detected performance degradation
+  Line 133: Jun 21 10:34:00 INFO ProcessA: Processed payment transactions
+  Line 134: Jun 21 10:35:00 DEBUG ProcessB: Executed automated tests
+  Line 136: Jun 21 10:37:00 DEBUG ProcessA: Resolved user login issue
+  Line 137: Jun 21 10:38:00 INFO ProcessB: Server maintenance in progress
+  Line 138: Jun 21 10:39:00 DEBUG ProcessC: Checked disk usage statistics
+  Line 139: Jun 21 10:40:00 INFO ProcessA: Service uptime report generated
+  Line 140: Jun 21 10:41:00 DEBUG ProcessB: Analyzed error logs
+  Line 141: Jun 21 10:42:00 INFO ProcessC: Sent status update to management
+  Line 142: Jun 21 10:43:00 DEBUG ProcessA: Debugged network connection issue
+  Line 143: Jun 21 10:44:00 INFO ProcessB: Applied software updates
+  Line 144: Jun 21 10:45:00 DEBUG ProcessC: Optimized database queries
+  Line 145: Jun 21 10:46:00 INFO ProcessA: Processed batch job
+  Line 146: Jun 21 10:47:00 DEBUG ProcessB: Investigated performance issue
+  Line 147: Jun 21 10:48:00 INFO ProcessC: Prepared monthly report
+  Line 149: Jun 21 10:50:00 INFO ProcessB: Monitored system logs
+  Line 150: Jun 21 10:51:00 DEBUG ProcessC: Evaluated system security
+  Line 151: Jun 21 10:52:00 INFO ProcessA: Executed scheduled tasks
+  Line 152: Jun 21 10:53:00 DEBUG ProcessB: Tracked user activity
+  Line 153: Jun 21 10:54:00 INFO ProcessC: Deployed new software version
+  Line 154: Jun 21 10:55:00 DEBUG ProcessA: Debugged application error
+  Line 155: Jun 21 10:56:00 INFO ProcessB: Audited file access
+  Line 156: Jun 21 10:57:00 DEBUG ProcessC: Investigated network intrusion
+  Line 158: Jun 21 10:59:00 DEBUG ProcessB: Checked server health
+  Line 159: Jun 21 11:00:00 INFO ProcessC: Conducted system backup
+  Line 160: Jun 21 11:01:00 DEBUG ProcessA: Analyzed system performance
+  Line 161: Jun 21 11:02:00 INFO ProcessB: Implemented security patch
+  Line 162: Jun 21 11:03:00 DEBUG ProcessC: Reviewed system logs
+  Line 163: Jun 21 11:04:00 INFO ProcessA: Handled customer support call
+  Line 164: Jun 21 11:05:00 DEBUG ProcessB: Tested disaster recovery plan
+  Line 165: Jun 21 11:06:00 INFO ProcessC: Updated user permissions
+  Line 166: Jun 21 11:07:00 DEBUG ProcessA: Generated analytics report
+  Line 167: Jun 21 11:08:00 INFO ProcessB: Resolved network issue
+  Line 168: Jun 21 11:09:00 DEBUG ProcessC: Monitored application performance
+  Line 169: Jun 21 11:10:00 INFO ProcessA: Processed billing transactions
+  Line 170: Jun 21 11:11:00 DEBUG ProcessB: Configured firewall rules
+  Line 171: Jun 21 11:12:00 INFO ProcessC: Conducted software upgrade
+  Line 172: Jun 21 11:13:00 DEBUG ProcessA: Investigated server error
+  Line 173: Jun 21 11:14:00 INFO ProcessB: Analyzed security logs
+  Line 174: Jun 21 11:15:00 DEBUG ProcessC: Debugged application issue
+  Line 175: Jun 21 11:16:00 INFO ProcessA: Sent status report to management
+  Line 176: Jun 21 11:17:00 DEBUG ProcessB: Implemented data encryption
+  Line 177: Jun 21 11:18:00 INFO ProcessC: Scheduled maintenance window
+  Line 178: Jun 21 11:19:00 DEBUG ProcessA: Verified backup integrity
+  Line 179: Jun 21 11:20:00 INFO ProcessB: Configured network settings
+  Line 180: Jun 21 11:21:00 DEBUG ProcessC: Analyzed system performance
+  Line 181: Jun 21 11:22:00 INFO ProcessA: Processed customer orders
+  Line 182: Jun 21 11:23:00 DEBUG ProcessB: Tested application reliability
+  Line 183: Jun 21 11:24:00 INFO ProcessC: Deployed application update
+  Line 184: Jun 21 11:25:00 DEBUG ProcessA: Investigated database issue
+  Line 185: Jun 21 11:26:00 INFO ProcessB: Monitored server uptime
+  Line 186: Jun 21 11:27:00 DEBUG ProcessC: Verified user access
+  Line 187: Jun 21 11:28:00 INFO ProcessA: Executed system backup
+  Line 188: Jun 21 11:29:00 DEBUG ProcessB: Reviewed audit logs
+  Line 189: Jun 21 11:30:00 INFO ProcessC: Updated software licenses
+  Line 190: Jun 21 11:31:00 DEBUG ProcessA: Analyzed network traffic
+  Line 191: Jun 21 11:32:00 INFO ProcessB: Configured server security
+  Line 192: Jun 21 11:33:00 DEBUG ProcessC: Investigated security incident
+  Line 193: Jun 21 11:34:00 INFO ProcessA: Handled customer complaints
+  Line 194: Jun 21 11:35:00 DEBUG ProcessB: Applied system updates
+  Line 195: Jun 21 11:36:00 INFO ProcessC: Generated performance report
+  Line 196: Jun 21 11:37:00 DEBUG ProcessA: Conducted system audit
+  Line 198: Jun 21 11:39:00 DEBUG ProcessC: Tested backup restore
+  Line 200: Jun 21 11:41:00 DEBUG ProcessB: Investigated service outage
+  Line 201: Jun 21 11:42:00 INFO ProcessC: Audited user permissions
+  Line 202: Jun 21 11:43:00 DEBUG ProcessA: Analyzed application logs
+  Line 203: Jun 21 11:44:00 INFO ProcessB: Configured network firewall
+  Line 204: Jun 21 11:45:00 DEBUG ProcessC: Reviewed security policy
+  Line 205: Jun 21 11:46:00 INFO ProcessA: Monitored system performance
+  Line 206: Jun 21 11:47:00 DEBUG ProcessB: Detected unauthorized access
+  Line 208: Jun 21 11:49:00 DEBUG ProcessA: Handled system maintenance
+  Line 209: Jun 21 11:50:00 INFO ProcessB: Applied software patches
+  Line 210: Jun 21 11:51:00 DEBUG ProcessC: Investigated malware infection
+  Line 211: Jun 21 11:52:00 INFO ProcessA: Processed financial transactions
+  Line 212: Jun 21 11:53:00 DEBUG ProcessB: Reviewed server logs
+  Line 215: Jun 21 10:01:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.100
+  Line 216: Jun 21 10:02:00 INFO ProcessA: Processing request
+  Line 217: Jun 21 10:03:00 ERROR Security breach detected in ProcessB
+  Line 218: Jun 21 10:04:00 INFO ProcessA: Service operating normally
+  Line 219: Jun 21 10:05:00 WARN Multiple failed login attempts detected
+  Line 220: Jun 21 10:06:00 INFO ProcessB: Received request from user
+  Line 221: Jun 21 10:07:00 ERROR Data exfiltration attempt detected from IP: 192.168.1.101
+  Line 223: Jun 21 10:09:00 ERROR Unauthorized access detected on admin account
+  Line 225: Jun 21 10:11:00 ERROR Malware detected in ProcessD
+  Line 226: Jun 21 10:12:00 WARN Suspicious network activity detected
+  Line 227: Jun 21 10:13:00 INFO ProcessB: Completed user request
+  Line 228: Jun 21 10:14:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.102
+  Line 229: Jun 21 10:15:00 INFO ProcessC: Sent response to client
+  Line 230: Jun 21 10:16:00 ERROR Security breach detected in ProcessE
+  Line 231: Jun 21 10:17:00 WARN Multiple failed login attempts detected
+  Line 232: Jun 21 10:18:00 INFO ProcessA: Service operating normally
+  Line 233: Jun 21 10:19:00 ERROR Data exfiltration attempt detected from IP: 192.168.1.103
+  Line 234: Jun 21 10:20:00 INFO ProcessB: Received request from user
+  Line 235: Jun 21 10:21:00 ERROR Unauthorized access detected on admin account
+  Line 237: Jun 21 10:23:00 ERROR Malware detected in ProcessF
+  Line 238: Jun 21 10:24:00 WARN Suspicious network activity detected
+  Line 239: Jun 21 10:25:00 INFO ProcessA: Processing request
+  Line 240: Jun 21 10:26:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.104
+  Line 241: Jun 21 10:27:00 INFO ProcessB: Completed user request
+  Line 242: Jun 21 10:28:00 ERROR Security breach detected in ProcessG
+  Line 243: Jun 21 10:29:00 WARN Multiple failed login attempts detected
+  Line 244: Jun 21 10:30:00 INFO ProcessC: Sent response to client
+  Line 245: Jun 21 10:31:00 ERROR Data exfiltration attempt detected from IP: 192.168.1.105
+  Line 247: Jun 21 10:33:00 ERROR Unauthorized access detected on admin account
+  Line 249: Jun 21 10:35:00 ERROR Malware detected in ProcessH
+  Line 250: Jun 21 10:36:00 WARN Suspicious network activity detected
+  Line 251: Jun 21 10:37:00 INFO ProcessA: Processing request
+  Line 252: Jun 21 10:38:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.106
+  Line 253: Jun 21 10:39:00 INFO ProcessB: Completed user request
+  Line 254: Jun 21 10:40:00 ERROR Security breach detected in ProcessI
+  Line 255: Jun 21 10:41:00 WARN Multiple failed login attempts detected
+  Line 256: Jun 21 10:42:00 INFO ProcessC: Sent response to client
+  Line 257: Jun 21 10:43:00 ERROR Data exfiltration attempt detected from IP: 192.168.1.107
+  Line 259: Jun 21 10:45:00 ERROR Unauthorized access detected on admin account
+  Line 261: Jun 21 10:47:00 ERROR Malware detected in ProcessJ
+  Line 262: Jun 21 10:48:00 WARN Suspicious network activity detected
+  Line 263: Jun 21 10:49:00 INFO ProcessA: Processing request
+  Line 264: Jun 21 10:50:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.108
+  Line 265: Jun 21 10:51:00 INFO ProcessB: Completed user request
+  Line 266: Jun 21 10:52:00 ERROR Security breach detected in ProcessK
+  Line 267: Jun 21 10:53:00 WARN Multiple failed login attempts detected
+  Line 268: Jun 21 10:54:00 INFO ProcessC: Sent response to client
+  Line 269: Jun 21 10:55:00 ERROR Data exfiltration attempt detected from IP: 192.168.1.109
+  Line 271: Jun 21 10:57:00 ERROR Unauthorized access detected on admin account
+  Line 273: Jun 21 10:59:00 ERROR Malware detected in ProcessL
+  Line 274: Jun 21 11:00:00 WARN Suspicious network activity detected
+  Line 275: Jun 21 11:01:00 INFO ProcessA: Processing request
+  Line 276: Jun 21 11:02:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.110
+  Line 277: Jun 21 11:03:00 INFO ProcessB: Completed user request
+  Line 278: Jun 21 11:04:00 ERROR Security breach detected in ProcessM
+  Line 279: Jun 21 11:05:00 WARN Multiple failed login attempts detected
+  Line 280: Jun 21 11:06:00 INFO ProcessC: Sent response to client
+  Line 281: Jun 21 11:07:00 ERROR Data exfiltration attempt detected from IP: 192.168.1.111
+  Line 283: Jun 21 11:09:00 ERROR Unauthorized access detected on admin account
+  Line 285: Jun 21 11:11:00 ERROR Malware detected in ProcessN
+  Line 286: Jun 21 11:12:00 WARN Suspicious network activity detected
+  Line 287: Jun 21 11:13:00 INFO ProcessA: Processing request
+  Line 288: Jun 21 11:14:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.112
+  Line 289: Jun 21 11:15:00 INFO ProcessB: Completed user request
+  Line 290: Jun 21 11:16:00 ERROR Security breach detected in ProcessO
+  Line 291: Jun 21 11:17:00 WARN Multiple failed login attempts detected
+  Line 292: Jun 21 11:18:00 INFO ProcessC: Sent response to client
+  Line 293: Jun 21 11:19:00 ERROR Data exfiltration attempt detected from IP: 192.168.1.113
+  Line 295: Jun 21 11:21:00 ERROR Unauthorized access detected on admin account
+  Line 297: Jun 21 11:23:00 ERROR Malware detected in ProcessP
+  Line 298: Jun 21 11:24:00 WARN Suspicious network activity detected
+  Line 299: Jun 21 11:25:00 INFO ProcessA: Processing request
+  Line 300: Jun 21 11:26:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.114
+  Line 301: Jun 21 11:27:00 INFO ProcessB: Completed user request
+  Line 302: Jun 21 11:28:00 ERROR Security breach detected in ProcessQ
+  Line 303: Jun 21 11:29:00 WARN Multiple failed login attempts detected
+  Line 304: Jun 21 11:30:00 INFO ProcessC: Sent response to client
+  Line 305: Jun 21 11:31:00 ERROR Data exfiltration attempt detected from IP: 192.168.1.115
+  Line 307: Jun 21 11:33:00 ERROR Unauthorized access detected on admin account
+  Line 309: Jun 21 11:35:00 ERROR Malware detected in ProcessR
+  Line 310: Jun 21 11:36:00 WARN Suspicious network activity detected
+  Line 311: Jun 21 11:37:00 INFO ProcessA: Processing request
+  Line 312: Jun 21 11:38:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.116
+  Line 313: Jun 21 11:39:00 INFO ProcessB: Completed user request
+  Line 314: Jun 21 11:40:00 ERROR Security breach detected in ProcessS
+  Line 315: Jun 21 11:41:00 WARN Multiple failed login attempts detected
+  Line 316: Jun 21 11:42:00 INFO ProcessC: Sent response to client
+  Line 317: Jun 21 11:43:00 ERROR Data exfiltration attempt detected from IP: 192.168.1.117
+  Line 319: Jun 21 11:45:00 ERROR Unauthorized access detected on admin account
+  Line 321: Jun 21 11:47:00 ERROR Malware detected in ProcessT
+  Line 323: Jun 21 10:01:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.100
+  Line 328: --- END OF: Sample_Suspicious_log.log ---
+  Line 330: --- START OF: Sample_unsuspicious_log.log ---
+  Line 331: Jun 22 00:15:16 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 332: Jun 22 00:35:45 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 333: Jun 22 00:35:46 TuRb0s-MacBook-Air syslogd[119]: Configuration Notice:
+  Line 334: ASL Module "com.apple.cdscheduler" claims selected messages.
+  Line 335: Those messages may not appear in standard system log files or in the ASL database.
+  Line 336: Jun 22 00:35:46 TuRb0s-MacBook-Air syslogd[119]: Configuration Notice:
+  Line 337: ASL Module "com.apple.install" claims selected messages.
+  Line 338: Those messages may not appear in standard system log files or in the ASL database.
+  Line 339: Jun 22 00:35:46 TuRb0s-MacBook-Air syslogd[119]: Configuration Notice:
+  Line 340: ASL Module "com.apple.authd" sharing output destination "/var/log/asl" with ASL Module "com.apple.asl".
+  Line 341: Output parameters from ASL Module "com.apple.asl" override any specified in ASL Module "com.apple.authd".
+  Line 342: Jun 22 00:35:46 TuRb0s-MacBook-Air syslogd[119]: Configuration Notice:
+  Line 343: ASL Module "com.apple.authd" sharing output destination "/var/log/system.log" with ASL Module "com.apple.asl".
+  Line 344: Output parameters from ASL Module "com.apple.asl" override any specified in ASL Module "com.apple.authd".
+  Line 345: Jun 22 00:35:46 TuRb0s-MacBook-Air syslogd[119]: Configuration Notice:
+  Line 346: ASL Module "com.apple.authd" claims selected messages.
+  Line 347: Those messages may not appear in standard system log files or in the ASL database.
+  Line 348: Jun 22 00:35:46 TuRb0s-MacBook-Air syslogd[119]: Configuration Notice:
+  Line 349: ASL Module "com.apple.eventmonitor" claims selected messages.
+  Line 350: Those messages may not appear in standard system log files or in the ASL database.
+  Line 351: Jun 22 00:35:46 TuRb0s-MacBook-Air syslogd[119]: Configuration Notice:
+  Line 352: ASL Module "com.apple.mail" claims selected messages.
+  Line 353: Those messages may not appear in standard system log files or in the ASL database.
+  Line 354: Jun 22 00:35:46 TuRb0s-MacBook-Air syslogd[119]: Configuration Notice:
+  Line 355: ASL Module "com.apple.performance" claims selected messages.
+  Line 356: Those messages may not appear in standard system log files or in the ASL database.
+  Line 357: Jun 22 00:35:46 TuRb0s-MacBook-Air syslogd[119]: Configuration Notice:
+  Line 358: ASL Module "com.apple.iokit.power" claims selected messages.
+  Line 359: Those messages may not appear in standard system log files or in the ASL database.
+  Line 360: Jun 22 00:35:46 TuRb0s-MacBook-Air syslogd[119]: Configuration Notice:
+  Line 361: ASL Module "com.apple.contacts.ContactsAutocomplete" claims selected messages.
+  Line 362: Those messages may not appear in standard system log files or in the ASL database.
+  Line 363: Jun 22 00:35:46 TuRb0s-MacBook-Air syslogd[119]: Configuration Notice:
+  Line 364: ASL Module "com.apple.mkb" sharing output destination "/private/var/log/keybagd.log" with ASL Module "com.apple.mkb.internal".
+  Line 365: Output parameters from ASL Module "com.apple.mkb.internal" override any specified in ASL Module "com.apple.mkb".
+  Line 366: Jun 22 00:35:46 TuRb0s-MacBook-Air syslogd[119]: Configuration Notice:
+  Line 367: ASL Module "com.apple.mkb" claims selected messages.
+  Line 368: Those messages may not appear in standard system log files or in the ASL database.
+  Line 369: Jun 22 00:35:46 TuRb0s-MacBook-Air syslogd[119]: Configuration Notice:
+  Line 370: ASL Module "com.apple.MessageTracer" claims selected messages.
+  Line 371: Those messages may not appear in standard system log files or in the ASL database.
+  Line 372: Jun 22 00:45:49 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 373: Jun 22 00:58:38 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 374: Jun 22 01:14:50 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 375: Jun 22 01:25:03 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 376: Jun 22 01:35:41 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 377: Jun 22 01:51:34 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 378: Jun 22 02:04:22 TuRb0s-MacBook-Air login[57116]: DEAD_PROCESS: 57116 ttys001
+  Line 379: Jun 22 02:04:22 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 380: Jun 22 02:04:22 TuRb0s-MacBook-Air login[54972]: DEAD_PROCESS: 54972 ttys000
+  Line 381: Jun 22 02:06:43 TuRb0s-MacBook-Air login[59332]: USER_PROCESS: 59332 ttys000
+  Line 382: Jun 22 02:18:43 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 383: Jun 22 02:20:22 TuRb0s-MacBook-Air login[59860]: USER_PROCESS: 59860 ttys001
+  Line 384: Jun 22 02:20:23 TuRb0s-MacBook-Air login[59860]: DEAD_PROCESS: 59860 ttys001
+  Line 385: Jun 22 02:28:46 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 386: Jun 22 02:31:46 TuRb0s-MacBook-Air login[59996]: USER_PROCESS: 59996 ttys001
+  Line 387: Jun 22 02:41:07 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 388: Jun 22 02:51:34 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 389: Jun 22 03:01:58 TuRb0s-MacBook-Air login[59332]: DEAD_PROCESS: 59332 ttys000
+  Line 390: Jun 22 03:01:58 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 391: Jun 22 03:01:59 TuRb0s-MacBook-Air login[59996]: DEAD_PROCESS: 59996 ttys001
+  Line 392: Jun 22 03:20:49 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 393: Jun 22 03:36:21 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 394: Jun 22 03:53:26 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 395: Jun 22 04:08:58 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 396: Jun 22 04:25:09 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 397: Jun 22 04:40:12 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 398: Jun 22 04:55:15 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 399: Jun 22 05:06:15 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 400: Jun 22 05:23:26 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 401: Jun 22 05:39:27 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 402: Jun 22 05:55:08 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 403: Jun 22 06:07:15 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 404: Jun 22 06:22:42 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 405: Jun 22 06:40:30 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 406: Jun 22 06:56:14 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 407: Jun 22 07:08:15 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 408: Jun 22 07:24:28 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 409: Jun 22 07:41:38 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 410: Jun 22 07:59:06 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 411: Jun 22 08:09:15 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 412: Jun 22 08:24:28 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 413: Jun 22 08:39:58 TuRb0s-MacBook-Air syslogd[119]: ASL Sender Statistics
+  Line 414: Jun 22 09:03:10 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 415: Jun 22 09:27:18 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 416: Jun 22 09:44:27 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 417: Jun 22 10:01:05 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 418: Jun 22 10:11:14 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 419: Jun 22 10:28:23 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 420: Jun 22 10:41:09 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 421: Jun 22 10:51:40 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 422: Jun 22 10:56:21 TuRb0s-Air login[61144]: USER_PROCESS: 61144 ttys000
+  Line 423: Jun 22 11:02:54 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 424: Jun 22 11:12:55 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 425: Jun 22 11:23:03 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 426: Jun 22 11:34:21 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 427: Jun 22 11:44:32 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 428: Jun 22 11:54:33 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 429: Jun 22 12:05:01 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 430: Jun 22 12:15:26 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 431: Jun 22 12:25:41 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 432: Jun 22 12:35:54 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 433: Jun 22 12:46:10 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 434: Jun 22 12:57:16 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 435: Jun 22 13:07:38 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 436: Jun 22 13:13:04 TuRb0s-Air login[62016]: USER_PROCESS: 62016 ttys001
+  Line 437: Jun 22 13:23:22 TuRb0s-Air login[61144]: DEAD_PROCESS: 61144 ttys000
+  Line 438: Jun 22 13:23:22 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 439: Jun 22 13:33:33 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 440: Jun 22 13:51:43 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 441: Jun 22 14:02:00 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 442: Jun 22 14:16:53 TuRb0s-Air login[62016]: DEAD_PROCESS: 62016 ttys001
+  Line 443: Jun 22 14:16:53 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 444: Jun 22 14:28:42 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 445: Jun 22 14:41:21 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 446: Jun 22 14:51:34 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 447: Jun 22 15:02:45 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 448: Jun 22 15:13:43 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 449: Jun 22 15:23:52 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 450: Jun 22 15:34:26 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 451: Jun 22 15:45:47 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 452: Jun 22 15:56:01 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 453: Jun 22 16:06:02 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 454: Jun 22 16:16:12 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 455: Jun 22 16:26:12 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 456: Jun 22 16:33:01 TuRb0s-Air login[64176]: USER_PROCESS: 64176 ttys000
+  Line 457: Jun 22 16:37:00 TuRb0s-Air login[64249]: USER_PROCESS: 64249 ttys001
+  Line 458: Jun 22 16:37:00 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 459: Jun 22 16:47:16 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 460: Jun 22 16:58:05 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 461: Jun 22 17:08:57 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 462: Jun 22 17:09:20 TuRb0s-Air login[64249]: DEAD_PROCESS: 64249 ttys001
+  Line 463: Jun 22 17:09:20 TuRb0s-Air login[64176]: DEAD_PROCESS: 64176 ttys000
+  Line 464: Jun 22 17:21:02 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 465: Jun 22 17:24:07 TuRb0s-Air login[64756]: USER_PROCESS: 64756 ttys001
+  Line 466: Jun 22 17:24:07 TuRb0s-Air login[64755]: USER_PROCESS: 64755 ttys000
+  Line 467: Jun 22 17:32:40 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 468: Jun 22 17:39:40 TuRb0s-Air login[64756]: DEAD_PROCESS: 64756 ttys001
+  Line 469: Jun 22 17:39:40 TuRb0s-Air login[64755]: DEAD_PROCESS: 64755 ttys000
+  Line 470: Jun 22 17:42:50 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 471: Jun 22 17:52:56 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 472: Jun 22 18:06:53 TuRb0s-Air syslogd[119]: ASL Sender Statistics
+  Line 473: Jun 22 18:09:31 TuRb0s-Air login[65160]: USER_PROCESS: 65160 ttys000
+  Line 475: --- END OF: Sample_unsuspicious_log.log ---
+
+POSITIVE: 23 occurrences
+The log entry appears to be normal.
+
+  Line 13: Jun 21 10:10:00 INFO ProcessA: Completed task successfully
+  Line 22: Jun 21 10:19:00 INFO ProcessA: Completed task successfully
+  Line 33: Jun 21 10:30:00 INFO ProcessA: Completed task successfully
+  Line 42: Jun 21 10:39:00 INFO ProcessA: Completed task successfully
+  Line 53: Jun 21 10:50:00 INFO ProcessA: Completed task successfully
+  Line 62: Jun 21 10:59:00 INFO ProcessA: Completed task successfully
+  Line 73: Jun 21 11:10:00 INFO ProcessA: Completed task successfully
+  Line 82: Jun 21 11:19:00 INFO ProcessA: Completed task successfully
+  Line 93: Jun 21 11:30:00 INFO ProcessA: Completed task successfully
+  Line 101: Jun 21 10:02:00 INFO ProcessA: Completed task successfully
+  Line 197: Jun 21 11:38:00 INFO ProcessB: Optimized database performance
+  Line 207: Jun 21 11:48:00 INFO ProcessC: Verified data integrity
+  Line 213: Jun
+  Line 222: Jun 21 10:08:00 INFO ProcessC: Completed task successfully
+  Line 236: Jun 21 10:22:00 INFO ProcessC: Completed task successfully
+  Line 248: Jun 21 10:34:00 INFO ProcessB: Completed task successfully
+  Line 260: Jun 21 10:46:00 INFO ProcessB: Completed task successfully
+  Line 272: Jun 21 10:58:00 INFO ProcessB: Completed task successfully
+  Line 284: Jun 21 11:10:00 INFO ProcessB: Completed task successfully
+  Line 296: Jun 21 11:22:00 INFO ProcessB: Completed task successfully
+  Line 308: Jun 21 11:34:00 INFO ProcessB: Completed task successfully
+  Line 320: Jun 21 11:46:00 INFO ProcessB: Completed task successfully
+  Line 322: Jun 21 11:48:00
+

@@ -1,0 +1,8 @@
+Total lines processed: 475
+
+NEGATIVE: 423
+The log entry may indicate a problem. Please investigate further.
+
+POSITIVE: 23
+The log entry appears to be normal.
+
