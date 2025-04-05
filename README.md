@@ -91,7 +91,7 @@ venv\Scripts\activate
 
 Here is an example of the tool's output in a bar graph:
 
-![Log_analyzer](images/image_8.png) 
+
 
 After selecting a log file and running the analysis, you will see the detected issues and recommended actions with a bar graph.
 
@@ -101,4 +101,3 @@ After selecting a log file and running the analysis, you will see the detected i
 - **Custom Patterns**: Allow users to define custom patterns and rules for detecting suspicious activities.
 - **Integration with SIEM**: Integrate with Security Information and Event Management (SIEM) systems for advanced threat detection and incident response.
 
-![Log_analyzer](images/Logo.png)
